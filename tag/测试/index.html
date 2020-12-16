@@ -56,9 +56,8 @@
 </script>
 
 
-        <meta name="keywords" content="ShietsuY, Y">
+        <meta name="keywords" content="Y">
         <meta name="description" content="Y">
-        <meta name="author" content="">
         <title>ShietsuY</title>
     </head>
     <body>
@@ -113,32 +112,59 @@
         <div id="body" class="clearfix">
             <div class="container-fluid">
                 <div class="row">
-                    <div id="main" class="col-12 clearfix" role="main">
-                        <article class="posti" itemscope itemtype="http://schema.org/BlogPosting">
-                            <div class="site">
-                                <h1 class="title">ShietsuY</h1>
-                                <h2 class="subtitle">Y</h2>
-                            </div>
+                    <div id="main" role="main">
+                        <ul class="post-list clearfix">
                             
-                            <h3>标签 - 3 篇文章</h3>
-                            <div class="post-tags">
-                                
-                                
-                                
-                                <h4>Tag</h4>
-                                <ul>
-                                    
-                                    <li rel="tag"><a href="/tag/%e8%ae%be%e8%ae%a1/index.html">设计 (2)</a></li>
-                                    
-                                    <li rel="tag"><a href="/tag/%e5%86%99%e4%bd%9c/index.html">写作 (2)</a></li>
-                                    
-                                    <li rel="tag"><a href="/tag/%e6%b5%8b%e8%af%95/index.html">测试 (1)</a></li>
-                                    
-                                    <li rel="tag"><a href="/tag/%e5%bc%80%e5%a7%8b/index.html">开始 (1)</a></li>
-                                    
-                                </ul>
-                            </div>
-                        </article>
+                            <li class="post-item grid-item" itemscope itemtype="http://schema.org/BlogPosting">
+                                <a class="post-link" href="/new.html">
+                                    <h3 class="post-title">
+                                        <time class="index-time" datetime="1608102960" itemprop="datePublished"></time>
+                                        <br>
+                                        测试一下能不能用
+                                    </h3>
+                                    <div class="post-meta">
+                                        开始						</div>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="nav-page">
+                        <ol class="page-navigator">
+                            
+                            
+                            <script>
+                                var currentpagenum =  1 ;
+                                var totalpagenum =  1 ;
+                                for(var i=1;i<=totalpagenum;i++) {
+                                    if (i==currentpagenum) {
+                                        document.write('<li class="current"><a href="');
+                                        if (i==1) {
+                                            document.write('/');
+                                        }
+                                        else {
+                                            document.write('page'+i+'.html');
+                                        }
+                                        document.write('">'+i+'</a></li>');
+                                    }
+                                    else {
+                                        document.write('<li><a href="');
+                                        if (i==1) {
+                                            document.write('/');
+                                        }
+                                        else {
+                                            document.write('page'+i+'.html');
+                                        }
+                                        document.write('">'+i+'</a></li>');
+                                    }
+                                }
+                            </script>
+                            
+                        </ol>
                     </div>
                 </div>
             </div>

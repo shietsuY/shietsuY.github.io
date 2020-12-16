@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>ShietsuY</title>
   <id>shietsuY.github.io</id>
-  <updated>2020-12-16T16:04:56+09:00</updated>
+  <updated>2020-12-16T16:21:19+09:00</updated>
   <subtitle>Y</subtitle>
   <link href="shietsuY.github.io"></link>
   <author>
     <name>ShietsuY</name>
   </author>
+  <entry>
+    <title>测试一下能不能用</title>
+    <updated>2020-12-16T16:20:00+08:00</updated>
+    <id>tag:,2020-12-16:shietsuY.github.io/new.html</id>
+    <content type="html">&lt;p&gt;试试看咯&lt;/p&gt;&#xA;</content>
+    <link href="shietsuY.github.io/new.html"></link>
+  </entry>
   <entry>
     <title>简洁的静态博客构建工具 —— 纸小墨（InkPaper）</title>
     <updated>2016-07-11T17:00:00+08:00</updated>
